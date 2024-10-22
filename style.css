@@ -1,0 +1,188 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk navigasi */
+
+header {
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styling Photo Home */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    opacity: 0.5; /* 50% blend */
+    border: 5px solid #fff; /* Frame */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7); /* Slight white background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+/* Styling Video Reels */
+#video {
+    text-align: center;
+    padding: 50px;
+}
+
+.video-container {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+
+/* Section styling */
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section#home {
+    background-color: #f4f4f4;
+}
+
+/* Styling untuk section About Me */
+section#about {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+#about h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Section Projects */
+
+section#projects {
+    background-color: #f9f9f9;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling untuk teks */
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Styling untuk skills */
+/* Mengatur tampilan wadah putih */
+.skills-container {
+    background-color: #f9f9f9; /* Wadah putih */
+    padding: 20px; /* Spasi di dalam wadah */
+    border-radius: 10px; /* Membuat sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambah efek bayangan */
+    max-width: 600px; /* Membatasi lebar maksimal container */
+    margin: 20px auto; /* Pusatkan container */
+}
+
+/* Custom bullet points dengan icon */
+.skills-container ul {
+    list-style: none; /* Menghilangkan default bullet points */
+    padding: 0;
+}
+
+.skills-container li {
+    font-size: 18px; /* Ukuran font yang lebih besar */
+    margin-bottom: 10px; /* Jarak antar item */
+    display: flex;
+    align-items: center;
+}
+
+.skills-container li span {
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+    font-size: 22px; /* Ukuran ikon */
+}
+
+/* Animasi saat hover */
+.skills-container li:hover {
+    background-color: #e0f7fa; /* Warna background saat dihover */
+    padding-left: 10px; /* Sedikit animasi gerakan ke kanan */
+    transition: 0.3s; /* Durasi transisi animasi */
+}
+
+section#skills ul {
+    list-style: none;
+}
+
+section#skills ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Styling untuk kontak */
+/* Mengatur style link email dan Instagram */
+#contact a {
+    color: black; /* Tetap berwarna hitam */
+    text-decoration: none; /* Menghilangkan underline */
+}
+
+#contact a:hover {
+    color: grey; /* Warna berubah saat di-hover (opsional) */
+}
+
+#contact i {
+    margin-right: 8px; /* Memberikan jarak antara ikon dan teks */
+}
+
